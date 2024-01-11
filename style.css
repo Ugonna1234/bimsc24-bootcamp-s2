@@ -5,16 +5,40 @@ html {
 
 }
 
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div {
+    /* put the borders in the inside of the container */
+    box-sizing: border-box;
+}
+
 #navbar {
-
     height: 50px;
-
+    text-shadow: 2px 2px 4px rgba(255, 1, 1, 0.5);
+    font-size:x-large
+    
 }
 
 #flex {
 
     display: flex;
+    height: calc(100vh - 50px);
+    text-shadow: 2px 2px 4px rgba(255, 1, 1, 0.5);
+    font-size:large;
 
+}
+
+#sidebar {
+    width: 30%;
+    text-decoration: underline;
+}
+
+#main {
+    width: 70%;
+    text-decoration: underline;
 }
 
 .container {
