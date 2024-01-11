@@ -1,46 +1,25 @@
+html {
 
-html{
-    
-    background-color: black; 
+    background-color: black;
     color: white;
+
 }
 
-body{
-
-    margin:0;
-}
-
-div{
-
-    /* put the borders in the inside of container */
-    box-sizing: border-box;
-}
-
-#navbar{
+#navbar {
 
     height: 50px;
 
 }
 
-#flex{
+#flex {
 
     display: flex;
-    height: calc(100vh - 50px);
-}
-
-#sidebar{
-
-    width:30%;
-}
-
-#main{
-    width:70%;
 
 }
 
-.container{
+.container {
 
-    border-style: dotted;
+    border-style: double;
     border-color: white;
     border-width: 1px;
 
